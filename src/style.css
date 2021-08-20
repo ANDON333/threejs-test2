@@ -1,0 +1,44 @@
+
+@import url('http://fonts.cdnfonts.com/css/barlow');
+*
+
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'barlow';
+    background: rgb(27,27,31);
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    
+    right: 0;
+    outline: none;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: white;
+    margin: 22rem 8rem 12rem 24rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 300
+
+}
+p{
+    font-size: 6rem;
+    color: white;
+}
